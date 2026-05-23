@@ -1,0 +1,5 @@
+# Build first: docker build -t heavycoin-dev .
+docker run -it \
+  -v "$SSH_AUTH_SOCK":"$SSH_AUTH_SOCK" \
+  -e SSH_AUTH_SOCK="$SSH_AUTH_SOCK" \
+  heavycoin-dev

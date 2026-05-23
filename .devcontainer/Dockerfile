@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/python:3.12
 
+LABEL org.opencontainers.image.title="heavycoin-dev"
+
 SHELL ["/bin/bash", "-c"]
 
 # Install poetry
